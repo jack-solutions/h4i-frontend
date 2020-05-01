@@ -1,0 +1,348 @@
+html {
+  line-height: 3;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+a {
+  color: #067df7;
+  text-decoration: none;
+  font-size: 12px;
+}
+a:hover {
+  text-decoration: none !important;
+}
+p {
+  font-size: 14px;
+  color: #4e4e4e;
+  font-weight: 400;
+}
+p > b {
+  font-weight: 900;
+  color: black;
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+.divider-bottom {
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  border-bottom: 1px solid #e6ebf1;
+}
+.lightblue-section {
+  background-color: #f1f5f9;
+}
+.rounded-lightblue-border {
+  border: 1px solid #e7ebef;
+  border-radius: 5px;
+}
+.padded-all-sm {
+  padding: 2%;
+}
+.margin-sm-top {
+  margin-top: 3%;
+}
+.margin-sm-all {
+  margin: 2%;
+}
+
+.nav-bar-link {
+  font-size: 10pt;
+  color: #dddddde7 !important;
+  text-decoration: none !important;
+}
+.nav-bar-link:hover {
+  color: #ffffff;
+}
+
+.card-title {
+  font-size: 22px;
+  color: #4b4b4b;
+}
+.candidate-list-box {
+  margin-top: 20px;
+}
+.candidate-list-box p {
+  padding-right: 20px;
+}
+.candidate-list-box a {
+  padding-right: 30px;
+}
+
+.card-links {
+  margin: 1%;
+}
+
+.card-body a {
+  /* This needs to override the candidate-list-box a above
+   * since candidate-list-box encapsulates each card and thus
+   * the styling applies to all <a></a> in the card
+   */
+  font-weight: 400;
+  padding: 0;
+}
+.candidate-card {
+  transition: all 200ms;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.candidate-card:hover {
+  background-color: #e7e7e7;
+  transform: translateY(-1px);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+.highlight {
+  color: darkblue;
+}
+.space-fix-placeholder {
+  display: none;
+}
+
+.sidebar {
+  width: 170px;
+  z-index: 1;
+  position: absolute;
+  top: 101px;
+  left: 2%;
+  padding-top: 20px;
+}
+.candidates {
+  left: 150px;
+  top: 100px;
+  position: absolute;
+}
+.clearfix {
+  clear: both;
+}
+
+.page-content-wrapper {
+  margin-top: 40px;
+}
+
+.filter-box {
+  display: block;
+  padding: 15px 7px 20px 20px;
+  transform: translateY(-1px);
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.01), 0 3px 24px rgba(48, 51, 51, 0.09);
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.filter-type-box {
+  margin-top: 10px;
+}
+
+#candidate-status-select {
+  width: 200px;
+}
+.comment-header {
+  background-color: #f6f8fa;
+  padding: 15px 20px;
+  color: #d1d5da;
+}
+.comment-header p {
+  margin: 0px !important;
+}
+.comment-box {
+  border: 1px solid #e2e3e5;
+  border-radius: 5px;
+  width: 100%;
+  margin: 10px 0px;
+}
+.comment-body {
+  padding: 15px 20px;
+}
+
+.page-error {
+  margin: 20%;
+  text-align: center;
+  height: 40px;
+  flex-direction: row;
+  font-size: 17px;
+}
+
+.loader-box {
+  display: block;
+  margin: auto;
+  top: 50%;
+}
+.candidate-table {
+  font-size: 14px;
+}
+
+.interview-card {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  transform: translateY(-1px);
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.01), 0 3px 24px rgba(48, 51, 51, 0.09);
+}
+
+.admin-roles-card {
+  height: 60%;
+  margin: 2%;
+}
+
+.future-interview {
+  float: left;
+  width: 18%;
+  min-width: max-content;
+  background-color: #77dd77;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 20px 20px;
+  /* border: medium solid #000000; */
+  border-radius: 4px;
+  text-align: left;
+}
+
+.interview-card p {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.interview-card:hover {
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.round-info-box {
+  border: 1px solid #d8d8d8;
+  padding: 1em 1em 0.5em;
+  border-radius: 5px;
+}
+
+.seventy-percent-width {
+  width: 70% !important;
+}
+
+.nav-bar-name {
+  font-size: 10pt;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  margin: 0 !important;
+}
+
+.login-box {
+  margin: 20%;
+}
+
+.login-card {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.register-card {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.register-center-content {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-title {
+  text-align: 'center';
+  padding-top: '10px';
+}
+
+.round-box {
+  margin: 10%;
+}
+
+.login-loading-box {
+  margin-top: 20%;
+  margin-left: 30px;
+}
+.candidate-box-wrapper p {
+  color: #656565;
+}
+
+.candidate-box-wrapper table {
+  color: #656565;
+  font-size: 14px;
+}
+
+.candidate-box-wrapper table b {
+  color: #000000;
+}
+.embed-doc {
+  width: 100%;
+  height: 900%;
+}
+
+.textarea-input {
+  white-space: pre-line;
+}
+
+.regular-anchor {
+  font-size: 14px;
+  color: #4e4e4e;
+  font-weight: 400;
+}
+
+.no-buffer {
+  padding: 0;
+  margin: 0 !important;
+}
+
+.button-margin {
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.event-details {
+  text-align: center;
+}
+
+.current {
+  background-color: #dee2e6;
+}
+
+.loader {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.workspace-selector {
+  max-width: 120px;
+}
+
+.pending-card {
+  width: fit-content;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.dashboard .db-alert {
+  width: 100%;
+}
+
+.general-notes-input {
+  height: 150px !important;
+}
+
+.margin-left-sm {
+  margin-left: 15px;
+}
